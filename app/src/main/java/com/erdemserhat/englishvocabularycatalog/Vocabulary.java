@@ -1,6 +1,8 @@
 package com.erdemserhat.englishvocabularycatalog;
 
-public class Vocabulary {
+import java.io.Serializable;
+
+public class Vocabulary implements Serializable {
     private String name;
     private String description;
     private int image;
